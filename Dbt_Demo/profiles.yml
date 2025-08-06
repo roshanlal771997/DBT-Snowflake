@@ -5,7 +5,7 @@ Dbt_Demo:
       type: snowflake
       role: ACCOUNTADMIN
       warehouse: COMPUTE_WH
-      database: DBT_PROJECT_DB
       schema: DEMO_SCHEMA
+      database: DBT_PROJECT_DB
       account: ''
       user: ''

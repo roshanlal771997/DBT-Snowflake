@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: demo
+    database: DBT_PROJECT_DB
+    schema: DEMO_SCHEMA
+    tables:
+      - name: customers
+      - name: orders
