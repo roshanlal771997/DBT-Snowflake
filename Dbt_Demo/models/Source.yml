@@ -6,4 +6,14 @@ sources:
     schema: DEMO_SCHEMA
     tables:
       - name: customers
+        columns:
+          - name: customer_id
+            tests:
+              - not_null
+              - unique
       - name: orders
+        columns:
+          - name: order_id
+            tests:
+              - not_null
+              - unique
