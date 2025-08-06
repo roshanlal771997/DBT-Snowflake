@@ -1,0 +1,11 @@
+Dbt_Demo:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: ACCOUNTADMIN
+      warehouse: COMPUTE_WH
+      database: DBT_PROJECT_DB
+      schema: DEMO_SCHEMA
+      account: ''
+      user: ''
